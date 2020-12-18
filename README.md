@@ -55,7 +55,9 @@ To build a development version of usaddress on your machine, run the following c
   ```
   git clone https://github.com/datamade/usaddress.git  
   cd usaddress  
-  pip install -e ."[dev]"
+  pip install -r requirements.txt  
+  python setup.py develop  
+  parserator train training/labeled.xml,training/cities.xml,training/hwys_and_srs.xml,training/numeric_road_names.xml,training/units.xml usaddress
   ```  
 
 Then run the testing suite to confirm that everything is working properly:

@@ -1,0 +1,70 @@
+<AddressCollection>
+  <AddressString><AddressNumber>123</AddressNumber>
+    <AddressNumberSuffix>A</AddressNumberSuffix>
+    <StreetNamePreDirectional>S</StreetNamePreDirectional>
+    <StreetName>Main</StreetName>
+    <StreetNamePostType>St</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>3892</AddressNumber>
+    <AddressNumberSuffix>#</AddressNumberSuffix>
+    <AddressNumberSuffix>3</AddressNumberSuffix>
+    <StreetName>Scott</StreetName>
+    <StreetNamePostType>Lane</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>3847</AddressNumber>
+    <AddressNumberSuffix>b</AddressNumberSuffix>
+    <StreetNamePreDirectional>South</StreetNamePreDirectional>
+    <StreetName>Scott</StreetName>
+    <StreetNamePostType>Lane</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>321</AddressNumber>
+    <AddressNumberSuffix>B</AddressNumberSuffix>
+    <StreetNamePreDirectional>S</StreetNamePreDirectional>
+    <StreetName>State</StreetName>
+    <StreetNamePostType>St</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>321</AddressNumber>
+    <AddressNumberSuffix>B</AddressNumberSuffix>
+    <StreetNamePreDirectional>S</StreetNamePreDirectional>
+    <StreetName>State</StreetName>
+    <StreetNamePostType>St</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>23495</AddressNumber>
+    <AddressNumberSuffix>Z</AddressNumberSuffix>
+    <StreetNamePreDirectional>south</StreetNamePreDirectional>
+    <StreetName>Scott</StreetName>
+    <StreetNamePostType>Dr</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>3847</AddressNumber>
+    <AddressNumberSuffix>b</AddressNumberSuffix>
+    <StreetNamePreDirectional>South</StreetNamePreDirectional>
+    <StreetName>Scott</StreetName>
+    <StreetNamePostType>Lane</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>123</AddressNumber>
+    <AddressNumberSuffix>A</AddressNumberSuffix>
+    <StreetNamePreDirectional>S</StreetNamePreDirectional>
+    <StreetName>Main</StreetName>
+    <StreetNamePostType>St</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>3892</AddressNumber>
+    <AddressNumberSuffix>#</AddressNumberSuffix>
+    <AddressNumberSuffix>3</AddressNumberSuffix>
+    <StreetName>Scott</StreetName>
+    <StreetNamePostType>Lane</StreetNamePostType>
+  </AddressString>
+  <AddressString><AddressNumber>123</AddressNumber> <AddressNumberSuffix>A</AddressNumberSuffix> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>301</AddressNumber> <AddressNumberSuffix>e</AddressNumberSuffix> <StreetNamePreDirectional>east</StreetNamePreDirectional> <StreetName>400</StreetName> <StreetNamePostDirectional>south</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>321</AddressNumber> <AddressNumberSuffix>B</AddressNumberSuffix> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>State</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3011</AddressNumber> <StreetName>d</StreetName> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3847</AddressNumber> <AddressNumberSuffix>b</AddressNumberSuffix> <StreetNamePreDirectional>South</StreetNamePreDirectional> <StreetName>Scott</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3892</AddressNumber> <AddressNumberSuffix>#</AddressNumberSuffix> <AddressNumberSuffix>3</AddressNumberSuffix> <StreetName>Scott</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>23495</AddressNumber> <AddressNumberSuffix>Z</AddressNumberSuffix> <StreetNamePreDirectional>south</StreetNamePreDirectional> <StreetName>Scott</StreetName> <StreetNamePostType>Dr</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>301</AddressNumber> <AddressNumberSuffix>e</AddressNumberSuffix> <StreetNamePreDirectional>east</StreetNamePreDirectional> <StreetName>400</StreetName> <StreetNamePostDirectional>south</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>3892</AddressNumber> <AddressNumberSuffix>#</AddressNumberSuffix> <AddressNumberSuffix>3</AddressNumberSuffix> <StreetName>Scott</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3847</AddressNumber> <AddressNumberSuffix>b</AddressNumberSuffix> <StreetNamePreDirectional>South</StreetNamePreDirectional> <StreetName>Scott</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>123</AddressNumber> <AddressNumberSuffix>A</AddressNumberSuffix> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3011</AddressNumber> <StreetName>d</StreetName> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>321</AddressNumber> <AddressNumberSuffix>B</AddressNumberSuffix> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>State</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>23495</AddressNumber> <AddressNumberSuffix>Z</AddressNumberSuffix> <StreetNamePreDirectional>south</StreetNamePreDirectional> <StreetName>Scott</StreetName> <StreetNamePostType>Dr</StreetNamePostType></AddressString>
+</AddressCollection>
