@@ -1,0 +1,11 @@
+<AddressCollection>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>e</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>n</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>345</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>El</StreetName> <StreetName>Dorado</StreetName> <StreetNamePostType>Rd</StreetNamePostType> <PlaceName>City</PlaceName> <PlaceName>of</PlaceName> <PlaceName>Holladay</PlaceName></AddressString>
+  <AddressString><AddressNumber>910</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetNamePreType>SR</StreetNamePreType> <StreetName>22</StreetName></AddressString>
+  <AddressString><AddressNumber>2040</AddressNumber> <StreetNamePreDirectional>E</StreetNamePreDirectional> <StreetName>7525</StreetName> <StreetNamePostDirectional>S</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>3847</AddressNumber> <AddressNumberSuffix>b</AddressNumberSuffix> <StreetNamePreDirectional>South</StreetNamePreDirectional> <StreetName>Steven</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>23458</AddressNumber> <StreetName>D</StreetName> <StreetName>East</StreetName> <StreetName>Steven</StreetName> <StreetNamePostType>Lane</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>e</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>no.</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>457</AddressNumber> <AddressNumberSuffix>B</AddressNumberSuffix> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>s</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>east</StreetNamePostDirectional></AddressString>
+</AddressCollection>

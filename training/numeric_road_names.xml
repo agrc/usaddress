@@ -1,0 +1,10 @@
+<AddressCollection>
+  <AddressString><AddressNumber>3188</AddressNumber> <StreetNamePreDirectional>South</StreetNamePreDirectional> <StreetName>1725</StreetName> <StreetNamePostDirectional>East</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>so.</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>south</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>s</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>no.</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>3188</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>1725</StreetName> <StreetNamePostDirectional>E</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>1940</AddressNumber> <StreetNamePreDirectional>E</StreetNamePreDirectional> <StreetName>5625</StreetName> <StreetNamePostDirectional>S</StreetNamePostDirectional></AddressString>
+  <AddressString><AddressNumber>9258</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>3090</StreetName> <StreetNamePostDirectional>no</StreetNamePostDirectional></AddressString>
+</AddressCollection>

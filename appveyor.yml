@@ -14,7 +14,7 @@ install:
   - python -m pip install --upgrade pip
   - pip install -r requirements.txt
   - pip install -e .
-  - parserator train training/labeled.xml usaddress
+  - parserator train training/labeled.xml,training/cities.xml,training/hwys_and_srs.xml,training/numeric_road_names.xml,training/units.xml usaddress
 
 build: false
 

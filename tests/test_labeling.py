@@ -32,6 +32,15 @@ class TestPerformance(object):  # for test generators, must inherit from object
             _, labels_pred = list(zip(*parse(address_text)))
             yield equals, address_text, labels_pred, labels_true
 
+    def test_utah(self):
+        test_file = 'measure_performance/test_data/utah.xml'
+        data = list(readTrainingData([test_file], GROUP_LABEL))
+
+        for labeled_address in data:
+            address_text, components = labeled_address
+            _, labels_true = list(zip(*components))
+            _, labels_pred = list(zip(*parse(address_text)))
+            yield equals, address_text, labels_pred, labels_true
 
 class TestPerformanceOld(object):  # some old tests for usaddress
 

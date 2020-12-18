@@ -1,0 +1,5 @@
+<AddressCollection>
+  <AddressString><AddressNumber>911</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetNamePreType>SR</StreetNamePreType> <StreetName>23</StreetName></AddressString>
+  <AddressString><AddressNumber>1010</AddressNumber> <StreetNamePreDirectional>N</StreetNamePreDirectional> <StreetNamePreType>SR</StreetNamePreType> <StreetName>89</StreetName></AddressString>
+  <AddressString><AddressNumber>1233</AddressNumber> <StreetNamePreDirectional>N</StreetNamePreDirectional> <StreetNamePreType>HWY</StreetNamePreType> <StreetName>22</StreetName></AddressString>
+</AddressCollection>
