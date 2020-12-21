@@ -32,10 +32,10 @@ class build_py(_build_py):
 
 # Standard setup configuration
 setup(
-    version='0.5.10',
-    url='https://github.com/datamade/usaddress',
+    version='0.6.0',
+    url='https://github.com/agrc/usaddress',
     description='Parse US addresses using conditional random fields',
-    name='usaddress',
+    name='agrc-usaddress',
     packages=['usaddress'],
     package_data={'usaddress': ['usaddr.crfsuite']},
     license='The MIT License: http://www.opensource.org/licenses/mit-license.php',
