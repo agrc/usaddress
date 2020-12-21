@@ -1,0 +1,4 @@
+<AddressCollection>
+  <AddressString><AddressNumber>3188</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>1725</StreetName> <StreetNamePostDirectional>E</StreetNamePostDirectional> <PlaceName>City</PlaceName> <PlaceName>of</PlaceName> <PlaceName>Holladay</PlaceName></AddressString>
+  <AddressString><AddressNumber>123</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>Main</StreetName> <StreetNamePostType>St</StreetNamePostType> <PlaceName>City</PlaceName> <PlaceName>of</PlaceName> <PlaceName>Holladay</PlaceName></AddressString>
+</AddressCollection>
