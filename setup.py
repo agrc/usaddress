@@ -34,7 +34,7 @@ class build_py(_build_py):
 setup(
     version='0.6.0',
     url='https://github.com/agrc/usaddress',
-    description='Parse US addresses using conditional random fields',
+    description='Parse US (optimized for Utah by AGRC) addresses using conditional random fields',
     name='agrc-usaddress',
     packages=['usaddress'],
     package_data={'usaddress': ['usaddr.crfsuite']},
