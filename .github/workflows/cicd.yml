@@ -28,7 +28,7 @@ jobs:
           pip install -e .
 
       - name: Train
-          parserator train training/labeled.xml,training/cities.xml,training/hwys_and_srs.xml,training/numeric_road_names.xml,training/units.xml usaddress
+        run: parserator train training/labeled.xml,training/cities.xml,training/hwys_and_srs.xml,training/numeric_road_names.xml,training/units.xml usaddress
 
       - name: Test
         run: nosetests --with-coverage --cover-package=usaddress
