@@ -11,6 +11,7 @@
     "nosetests",
     "outdir",
     "parser's",
+    "probableparsing",
     "pypa",
     "pypi",
     "sdist",
