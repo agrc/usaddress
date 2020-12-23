@@ -58,7 +58,7 @@ jobs:
 
       # bump add epoch seconds to version to make sure that it's unique for test.pypi.org
       - name: Bump version
-        run: sed -i "s/version='\(.*\)'/version='\1.dev$(date +%s)'/g" setup.py
+        run: sed -i "s/version='.*'/version='$(date +%s)'/g" setup.py
 
       - name: Build
         run: |
