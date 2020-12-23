@@ -33,10 +33,50 @@ jobs:
       - name: Test
         run: nosetests --with-coverage --cover-package=usaddress
 
-  deploy:
-    name: Deploy
+  deploy-test:
+    name: Deploy to test.pypi.org
     runs-on: ubuntu-latest
     needs: test
+
+    steps:
+      - name: Set up python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Install project and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install .
+
+      - name: Train
+        run: parserator train training/labeled.xml,training/cities.xml,training/hwys_and_srs.xml,training/numeric_road_names.xml,training/units.xml usaddress
+
+      # bump add epoch seconds to version to make sure that it's unique for test.pypi.org
+      - name: Bump version
+        run: sed -i "s/version='\(.*\)'/version='\1.dev$(date +%s)'/g" setup.py
+
+      - name: Build
+        run: |
+          pip install wheel
+          python setup.py sdist bdist_wheel
+
+      - name: Publish distribution to Test PyPI
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_url: https://test.pypi.org/legacy/
+          skip_existing: true
+
+  deploy-prod:
+    name: Deploy to pypi.org
+    runs-on: ubuntu-latest
+    needs: test
+    if: startsWith(github.ref, 'refs/tags')
 
     steps:
       - name: Set up python 3.9
@@ -61,14 +101,7 @@ jobs:
           pip install wheel
           python setup.py sdist bdist_wheel
 
-      - name: Publish distribution to Test PyPI
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-          repository_url: https://test.pypi.org/legacy/
-
       - name: Publish distribution to PyPI
-        if: startsWith(github.ref, 'refs/tags')
         uses: pypa/gh-action-pypi-publish@master
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
