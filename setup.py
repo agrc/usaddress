@@ -32,7 +32,7 @@ class build_py(_build_py):
 
 # Standard setup configuration
 setup(
-    version='0.6.0',
+    version='0.6.1',
     url='https://github.com/agrc/usaddress',
     description='Parse US (optimized for Utah by AGRC) addresses using conditional random fields',
     name='agrc-usaddress',
