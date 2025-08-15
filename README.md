@@ -2,6 +2,8 @@ usaddress
 =================
 ![github actions status](https://github.com/agrc/usaddress/workflows/Test%20and%20Deploy/badge.svg)
 
+Note: This is a forked version that has been trained to be optimized for Utah-specific data.
+
 usaddress is a Python library for parsing unstructured address strings into address components, using advanced NLP methods. Try it out on our [web interface](https://parserator.datamade.us/usaddress)! For those who aren't Python developers, we also have an [API](https://parserator.datamade.us/api-docs).
 
 **What this can do:** Using a probabilistic model, it makes (very educated) guesses in identifying address components, even in tricky cases where rule-based parsers typically break down.
@@ -26,7 +28,7 @@ Parserator: Parse and Split Addresses allows you to easily split addresses into 
   In the terminal,
   
   ```bash
-  pip install usaddress
+  pip install agrc-usaddress
   ```
 2. Parse some addresses!
 
@@ -104,6 +106,13 @@ If something in the library is not behaving intuitively, it is a bug, and should
 * Fork the project.
 * Make your feature addition or bug fix.
 * Send us a pull request. Bonus points for topic branches!
+
+## Deploy Steps
+
+1. bump version number in `setup.py`
+1. update `CHANGELOG
+1. tag and push
+1. the project is built and deployed automatically via GitHub Actions
 
 ## Copyright
 
